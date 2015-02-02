@@ -1,3 +1,3 @@
 # headFirstPatternLearn
 
-学习<<head first pattern>>的代码
+<<Head First Pattern>>的学习代码
