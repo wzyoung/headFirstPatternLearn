@@ -6,7 +6,7 @@ import java.util.Observer;
 /**
  * Created by wzyoung on 2015/2/4.
  */
-public class CurrentyConditionsDisplay implements Observer {
+public class CurrentConditionsDisplay implements Observer {
 
     Observable observable;
 
@@ -27,7 +27,7 @@ public class CurrentyConditionsDisplay implements Observer {
         }
     }
 
-    public CurrentyConditionsDisplay(Observable observable) {
+    public CurrentConditionsDisplay(Observable observable) {
         this.observable = observable;
         observable.addObserver(this);
     }
