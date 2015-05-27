@@ -28,7 +28,7 @@ public class Client {
 
         System.out.println("salt" + salt);
 
-        System.out.println("enPwd" + encryptPwd);
+        System.out.println("enP wd" + encryptPwd);
 
         return true;
     }
