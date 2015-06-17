@@ -1,7 +1,5 @@
 package singleton.DClExample;
 
-import java.util.concurrent.CountDownLatch;
-
 /**
  * Created by wzyoung on 2014/12/15.
  * <p/>
