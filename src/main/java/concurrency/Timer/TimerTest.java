@@ -16,7 +16,6 @@ public class TimerTest {
             public void run() {
                 System.out.println("task start");
                 throw new RuntimeException();
-
             }
         };
         timer.schedule(task, 0, 1000);
