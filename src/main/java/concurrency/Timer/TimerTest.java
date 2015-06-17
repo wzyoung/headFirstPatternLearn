@@ -27,7 +27,7 @@ public class TimerTest {
             public void run() {
                 System.out.println("exception");
             }
-        }, 100);
+        }, 0, 100);
     }
 
     public static void main(String[] args) throws Exception {
