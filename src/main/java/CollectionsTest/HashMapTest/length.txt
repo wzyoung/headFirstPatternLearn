@@ -1,0 +1,15 @@
+
+
+jdk6
+
+hashmap: why the length of a hashmap should be a power of two.
+
+code:
+
+   /**
+     * Returns index for hash code h.
+     */
+    static int indexFor(int h, int length) {
+        return h & (length-1);
+    }
+    
