@@ -13,7 +13,7 @@ public class TestClient {
 
         ApplicationContext applicationContext = new FileSystemXmlApplicationContext("D:\\workspaces\\HeadFirstPatten\\web\\WEB-INF\\SpringContext.xml");
 
-        BaseService baseService = (BaseService) applicationContext.getBean("serviceA");
+        BaseService baseService = applicationContext.getBean("serviceA", BaseService.class);
 
         baseService.handle();
     }

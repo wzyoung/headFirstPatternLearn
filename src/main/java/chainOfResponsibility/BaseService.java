@@ -14,6 +14,7 @@ public abstract class BaseService {
         doSomething();
 
         if (null != nextHandler) {
+            System.out.println("next handler is :" + nextHandler.getClass().getSimpleName());
             nextHandler.handle();
         }
     }
