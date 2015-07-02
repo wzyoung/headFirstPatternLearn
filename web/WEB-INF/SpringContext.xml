@@ -11,5 +11,13 @@
         <property name="nextHandler" ref="serviceOther"/>
 
     </bean>
-    <bean id="serviceOther" class="chainOfResponsibility.ServiceOther"/>
+    <bean id="serviceOther" class="chainOfResponsibility.ServiceOther">
+
+    </bean>
+
+    <!--cyc reference makes a StackOverflowError exception when scope is singleton
+        if scope="prototype" spring will throw a BeanCurrentlyInCreationException-->
+    <!--<bean id="serviceOther" class="chainOfResponsibility.ServiceOther">-->
+        <!--<property name="nextHandler" ref="serviceA"/>-->
+    <!--</bean>-->
 </beans>
