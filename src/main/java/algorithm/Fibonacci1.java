@@ -7,6 +7,7 @@ public class Fibonacci1 {
 
     public static void main(String[] args) {
 
+        // test
         int i = 20;
 
         for (int j = 1; j <= i; j++) {
