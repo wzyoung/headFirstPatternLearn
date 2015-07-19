@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../concurrency/Concurrency.iml" filepath="$PROJECT_DIR$/../concurrency/Concurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/HeadFirstPatten.iml" filepath="$PROJECT_DIR$/HeadFirstPatten.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../concurrency/concurrency.iml" filepath="$PROJECT_DIR$/../concurrency/concurrency.iml" />
     </modules>
   </component>
 </project>
